@@ -74,6 +74,7 @@
         cursor: pointer;
         font-size: 30px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        scroll-behavior: smooth;
       }
 
       .baza:hover {
@@ -81,9 +82,10 @@
       }
 
       .nokia {
-        width: 500px;
-        height: 400px;
+        width: 600px;
+        height: 500px;
         border-radius: 5px;  
+       
       }
 
       .price {
