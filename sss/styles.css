@@ -220,15 +220,3 @@
                 .free {
                   color: #28a745;
                 }
-
-                /* мелиа */
-
-                                @media (max-width: 600px) {
-                                  .option {
-                                    flex-direction: column;
-                                    align-items: flex-start;
-                                  }
-                
-                                  .option .right {
-                                    align-self: flex-end;
-                                  }               }
