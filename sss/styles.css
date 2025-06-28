@@ -1,6 +1,11 @@
      /* Адаптування */
 
      @media (max-width: 480px) {
+
+.container {
+  flex-direction: column;
+  align-content: center;
+}
       .wrapper {
         width: 100%;
         justify-content: center;
@@ -18,14 +23,23 @@
 
       .price {
         padding:0 920px 0 0;
-        margin: auto;
         height: 15px;
+        margin-left: 20px;
        }
 
        .buy {
         width: 100%;
         text-align: center;
+        margin-bottom: 10px;
        }
+
+       .info  {
+         display: flex;
+         width: 100%;
+         align-items: center;
+         flex-wrap: wrap;
+         gap: 0 calc(var(--global-spacer)* 4);   
+        }
 
        .plus {
         padding-left: 16px;
@@ -38,7 +52,7 @@
         }
       html {
         scroll-behavior: smooth;
-        font-size: 14px;
+        font-size: 11px;
       }
 
       body {
@@ -133,9 +147,13 @@
         border-radius: 5px;  
       }
 
-      .price {
-        display: inline-flex;
-        margin-left: 600px;
+     .price {
+      display: inline;
+        font-size: 14px;
+        color: #000;
+        text-align: center;
+        margin: 0;
+        padding: 0;
       }
 
       .wrapper {
@@ -145,9 +163,13 @@
         border-radius: 8px;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         padding: 30px;
-        display: inline-flex;
+        display: flex;
         gap: 20px;
         flex-wrap: wrap;
+}
+
+.buyer {
+  display: block;
 }
 
 .product-section-info {
@@ -164,7 +186,13 @@
     margin-left: 30px;
     display: inline;
     font-size: 11px;
+    width: 100%;
   }
+
+  .back-link {
+    text-decoration: none;
+    color: #218838;
+   }
 
   /* Оформлення замовлення */
 
