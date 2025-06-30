@@ -1,5 +1,7 @@
      /* Адаптування */
 
+     /* мобільний телефон */
+
      @media (max-width: 480px) {
 
 .container {
@@ -45,6 +47,113 @@
         padding-left: 16px;
        }
      }
+
+        /* великий телефон */
+
+         @media (max-width: 767px) {
+    
+           .container {
+             flex-direction: column;
+             align-content: center;
+           }
+    
+           .wrapper {
+             width: 100%;
+             justify-content: center;
+           }
+    
+           .name-pruduct {
+             margin: 10px;
+             width: 100%;
+           }
+    
+           .product-page {
+             width: 55%;
+             height: 60%;
+           }
+    
+           .price {
+             padding: 0 920px 0 0;
+             height: 15px;
+             margin-left: 20px;
+           }
+    
+           .buy {
+             width: 100%;
+             text-align: center;
+             margin-bottom: 10px;
+           }
+    
+           .info {
+             display: flex;
+             width: 100%;
+             align-items: center;
+             flex-wrap: wrap;
+             gap: 0 calc(var(--global-spacer)* 4);
+           }
+    
+           .plus {
+             padding-left: 16px;
+           }    
+
+           .h {
+            margin: auto;
+            padding-right: 100px;
+           }
+           }
+
+           /* Планшет */
+
+                     @media (max-width: 1024px) {
+          
+                       .container {
+                         flex-direction: column;
+                         align-content: center;
+                       }
+          
+                       .wrapper {
+                         width: 100%;
+                         justify-content: center;
+                       }
+          
+                       .name-pruduct {
+                         margin: 10px;
+                         width: 100%;
+                       }
+          
+                       .product-page {
+                         width: 55%;
+                         height: 60%;
+                       }
+          
+                       .price {
+                         padding: 0 920px 0 0;
+                         height: 15px;
+                         margin-left: 20px;
+                       }
+          
+                       .buy {
+                         width: 100%;
+                         text-align: center;
+                         margin-bottom: 10px;
+                       }
+          
+                       .info {
+                         display: flex;
+                         width: 100%;
+                         align-items: center;
+                         flex-wrap: wrap;
+                         gap: 0 calc(var(--global-spacer)* 4);
+                       }
+          
+                       .plus {
+                         padding-left: 16px;
+                       }
+          
+                       .h {
+                         margin: auto;
+                         padding-right: 325px;
+                       }}
      
      /* Основні стилі */
       * {
