@@ -98,7 +98,7 @@
 
            .h {
             margin: auto;
-            /* padding-right: 100px; */
+            padding-right: 100px;
            }
            }
 
@@ -152,7 +152,7 @@
           
                        .h {
                          margin: auto;
-                         padding-right: 325px;
+                        text-align: left;
                        }}
      
      /* Основні стилі */
@@ -301,6 +301,12 @@
   .back-link {
     text-decoration: none;
     color: #218838;
+   }
+
+   .h {
+    display: block;
+    margin-left: 0;
+    padding-right: 0;
    }
 
   /* Оформлення замовлення */
