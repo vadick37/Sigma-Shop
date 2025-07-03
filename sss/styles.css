@@ -418,3 +418,7 @@
      .free {
        color: #28a745;
      }
+
+     .surname {
+      display: inline-flex;
+     }
