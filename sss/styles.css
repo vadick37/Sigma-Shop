@@ -273,12 +273,16 @@
      .adapter {
        display: inline-flex;
        margin: auto;
-       padding: auto;
-       color: #218838;
+       color: white;
        cursor: pointer;
-       font-size: 30px;
+       font-size: 17px;
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-       scroll-behavior: smooth;
+       text-decoration: none;
+       border: 50px;
+       border-radius: 8px;
+       background-color: #28a745;
+       padding-left: 11px;
+       text-align: center;
      }
 
      .adapter:hover {
