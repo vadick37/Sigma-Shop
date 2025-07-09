@@ -49,6 +49,7 @@
          padding-left: 16px;
        }
 
+
      }
 
      /* великий телефон */
@@ -105,8 +106,9 @@
 
        .back-link {
         margin-left: -28px;
-       }
-     }
+      }
+     
+    }
 
      /* Планшет */
 
@@ -439,11 +441,14 @@
      }
 
      .surname {
-      display: inline-flex;
+      display: flex;
+      flex-wrap: wrap;
      }
 
      .z {
       margin-left: -1px;
+      width: 100%;
+      text-align: center;
      }
 
      /* Подяка */
