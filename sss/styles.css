@@ -48,7 +48,10 @@
        .plus {
          padding-left: 16px;
        }
-
+      
+       .thanks {
+        justify-content: center;
+       }
 
      }
 
@@ -106,6 +109,10 @@
 
        .back-link {
         margin-left: -28px;
+      }
+
+      .thanks { 
+        justify-content: center;
       }
      
     }
