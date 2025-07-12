@@ -196,9 +196,13 @@
      html {
        scroll-behavior: smooth;
        font-size: 11px;
+       height: 100%;
      }
 
      body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
        font-family: Arial, sans-serif;
        margin: 0;
        padding: 0;
@@ -224,6 +228,7 @@
        color: white;
        padding: 15px;
        text-align: center;
+
      }
 
      ul {
@@ -239,6 +244,11 @@
      }
 
      /* Головна сторінка */
+     .main {
+    min-height: 76vh;
+    display: flex;
+    flex-direction: column;
+     }
 
 
      .container {
