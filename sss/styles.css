@@ -282,22 +282,18 @@
      }
 
      .adapter {
-       display: inline-flex;
-       margin: auto;
-       color: white;
-       cursor: pointer;
-       font-size: 17px;
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-       text-decoration: none;
-       border: 50px;
-       border-radius: 8px;
-       background-color: #28a745;
-       padding-left: 11px;
-       text-align: center;
+      background-color: #218838;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
      }
 
      .adapter:hover {
-       color: #28a745;
+      background-color: #219150;
+      transform: translateY(-2px);
      }
 
      .product-page {
