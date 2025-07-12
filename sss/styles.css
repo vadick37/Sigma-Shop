@@ -55,6 +55,14 @@
 
      }
 
+     @media(max-width: 383px) {
+      .adapter-list {
+        white-space: nowrap;
+        font-size: smaller;
+        width: 100%;
+      }
+     }
+
      /* великий телефон */
 
      @media (max-width: 767px) {
@@ -281,7 +289,8 @@
        cursor: pointer;
      }
 
-     .adapter {
+     .adapter { 
+      display: inline-flex;
       background-color: #218838;
       color: white;
       padding: 6px 14px;
