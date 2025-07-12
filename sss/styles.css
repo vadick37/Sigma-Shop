@@ -48,9 +48,9 @@
        .plus {
          padding-left: 16px;
        }
-      
-       .thanks {
-        justify-content: center;
+
+       .back-link {
+        margin-left: -28px;
        }
 
      }
@@ -107,14 +107,14 @@
          padding-right: 100px;
        }
 
-       .back-link {
+      .back-link {
         margin-left: -28px;
-      }
-
-      .thanks { 
-        justify-content: center;
-      }
+       }
      
+
+       .thanks img {
+        width: 70%;
+       }
     }
 
      /* Планшет */
@@ -177,6 +177,7 @@
        .z {
         width: 100%;
        }
+
      }
 
      /* Основні стилі */
